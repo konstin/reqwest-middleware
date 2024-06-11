@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Upgraded `retry-policies` to `0.4.0`.
+- Errors are now reported as `RetryError` that adds the number of retries to the error chain if there were any.
 
 ## [0.5.0] - 2024-04-10
 
